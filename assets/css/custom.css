@@ -1,0 +1,22 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+
+.section-wrapper h1,
+.section-wrapper p {
+  text-align: center;
+}
+
+#grid.section-wrapper p {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  #action h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 768px) {
+  #main-content .section-wrapper .content-wrapper {
+    top: 20%;
+    bottom: 0;
+  }
+}
