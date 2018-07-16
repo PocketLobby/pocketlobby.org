@@ -36,7 +36,17 @@
     <![endif]-->
   </head>
 
-  <body data-default-background-img="assets/images/other_images/statue_of_liberty.jpg" data-overlay="true" data-overlay-opacity="0.50">
+  <body data-default-background-img="assets/images/liberty_bg.jpeg" data-overlay="false" data-overlay-opacity="0.50">
+    <div class="vegas-overlay" style="margin: 0px;
+      padding: 0px;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      opacity: 0.5;">
+    </div>
 
     <!-- Outer Container -->
     <div id="outer-container">
@@ -72,7 +82,7 @@
 
       <section id="main-content" class="clearfix">
 
-        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/statue_of_liberty.jpg">
+        <article id="intro" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
             <div class="col-sm-10 col-md-9 pull-left">
 
@@ -90,7 +100,7 @@
 
         <div class="clearfix"> </div>
 
-        <article id="believe" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/statue_of_liberty.jpg">
+        <article id="believe" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
             <div class="col-sm-10 col-md-9 pull-left">
 
@@ -106,7 +116,7 @@
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="action" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/statue_of_liberty.jpg">
+        <article id="action" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
             <div class="col-sm-10 col-md-9 pull-left">
 
@@ -139,7 +149,7 @@
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="get-involved" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/statue_of_liberty.jpg">
+        <article id="get-involved" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 col-md-10 pull-left">
 
@@ -189,7 +199,7 @@
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="join" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/statue_of_liberty.jpg">
+        <article id="join" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
 
               <h1 class="section-title text-center">Join</h1>
@@ -217,7 +227,7 @@
                     <div class="col-md-6">
                       <div class="form-group" style="height: 54px">
                         <label class="text-field">
-                          <input type="checkbox" name="US_CERTIFY" class="required" value="1" id="mce-DIST_NUM" tabindex="2">
+                          <input type="checkbox" name="US_CITIZEN" class="required" value="Yes" id="mce-US_CITIZEN" tabindex="2">
                           I certify I am a U.S. Citizen
                         </label>
                       </div>
@@ -236,7 +246,7 @@
 											 <div class="response" id="mce-success-response" style="display:none"></div>
 										 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 										 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_67eb2696cb50ec220b8b8f10a_fdaee4333b" tabindex="-1" value=""></div>
-                     <input type="submit" class="btn btn-sm btn-outline-inverse">
+                     <input type="submit" class="btn btn-sm btn-outline-inverse" value="Join Pocket Lobby">
                    </div>
 								 </form>
 							 </div>
